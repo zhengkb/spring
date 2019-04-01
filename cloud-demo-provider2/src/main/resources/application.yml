@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: provider-demo
+server:
+  port: 8087
+
+
+eurekaServer:
+  host: localhost
+  port: 8083
+  user: root
+  password: root
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone:  http://${eurekaServer.user}:${eurekaServer.password}@${eurekaServer.host}:${eurekaServer.port}/eureka
