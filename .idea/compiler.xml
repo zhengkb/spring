@@ -7,15 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-demo-consume" />
+        <module name="cloud-demo-consume-fegin" />
         <module name="cloud-demo-eureka" />
         <module name="cloud-demo-provider" />
         <module name="cloud-demo-provider (1)" />
         <module name="cloud-demo-provider2" />
         <module name="clouddemoprovider" />
       </profile>
+      <profile name="Annotation profile for mytest" enabled="true">
+        <sourceOutputDir name="../cloud-demo-consume/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../cloud-demo-consume/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-demo-consume (1)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-demo-consume" target="1.8" />
+      <module name="cloud-demo-consume (1)" target="1.8" />
+      <module name="cloud-demo-consume-fegin" target="1.8" />
       <module name="cloud-demo-eureka" target="1.8" />
       <module name="cloud-demo-provider" target="1.8" />
       <module name="cloud-demo-provider (1)" target="1.8" />

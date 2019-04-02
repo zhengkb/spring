@@ -13,6 +13,7 @@
         <module>cloud-demo-consume</module>
         <module>cloud-demo-eureka</module>
         <module>cloud-demo-provider2</module>
+        <module>cloud-demo-consume-fegin</module>
     </modules>
 
     <parent>

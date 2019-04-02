@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-consume/cloud-demo-consume.iml" filepath="$PROJECT_DIR$/cloud-demo-consume/cloud-demo-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-demo-consume-fegin/cloud-demo-consume-fegin.iml" filepath="$PROJECT_DIR$/cloud-demo-consume-fegin/cloud-demo-consume-fegin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-eureka/cloud-demo-eureka.iml" filepath="$PROJECT_DIR$/cloud-demo-eureka/cloud-demo-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-provider/cloud-demo-provider.iml" filepath="$PROJECT_DIR$/cloud-demo-provider/cloud-demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-provider2/cloud-demo-provider2.iml" filepath="$PROJECT_DIR$/cloud-demo-provider2/cloud-demo-provider2.iml" />
